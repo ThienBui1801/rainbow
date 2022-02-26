@@ -700,19 +700,20 @@
 
 .footer__list li {
   margin-top: 12px;
-  position: relative;
 }
 
-.footer__list li a {
+.footer__list a {
+  display: inline-block;
   color: #757575;
   font-size: 16px;
+  position: relative;
 }
 
 .footer__list li:hover a {
   color: var(--primary-color);
 }
 
-.footer__list li a::after {
+.footer__list a::after {
   position: absolute;
   content: '';
   left: 0;
@@ -723,7 +724,7 @@
   transition: all 0.5s;
 }
 
-.footer__list li:hover a::after {
+.footer__list a:hover::after {
   width: 100%;
 }
 
