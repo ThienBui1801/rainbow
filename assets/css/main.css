@@ -761,7 +761,7 @@
 
 .modal__header-container {
   background-color: var(--white-color);
-  min-width: 70%;
+  min-width: 350px;
   height: 100vh;
   /* padding: 32px 0 32px 32px; */
   display: flex;
@@ -790,6 +790,11 @@
 .modal__header-close i {
   color: #858585;
   font-weight: 900;
+}
+
+.modal__header-content {
+  height: 100vh;
+  overflow-y: scroll;
 }
 
 .modal__header-main {
@@ -833,10 +838,7 @@
   color: var(--primary-color);
 }
 
-.modal__header-dropdown:nth-child(1) .modal__header-submenu,
-.modal__header-dropdown:nth-child(2) .modal__header-submenu,
-.modal__header-dropdown:nth-child(4) .modal__header-submenu,
-.modal__header-dropdown:nth-child(5) .modal__header-submenu {
+ .modal__header-submenu {
   display: none;
 }
 
