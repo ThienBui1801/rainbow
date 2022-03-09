@@ -19,10 +19,10 @@
 }
 
 @media (max-width: 992px) {
-  .navbar-nav,
+  /* .navbar-nav,
   .header__btn {
     display: none;
-  }
+  } */
 
   .navbar-toggler-icon {
     font-size: 24px;
